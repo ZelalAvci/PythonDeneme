@@ -26,7 +26,7 @@ choise1 = input("Yolda giderken bir yol ayrımına denk geldiniz. Hangi yoldan g
 if choise1 == "sol":
     choise2 = input("Deniz kenarında bir kayık buldunuz.Adaya gitmek için binecek misiniz yoksa bekleyecek misiniz?Binmek için bin,beklemek için bekle yazınız.\n").lower()
     if choise2 == "bekle":
-        choise3 = input("Beklemeniz meyvesini verdi ve bir gemiyle adaya vardınız.Adada yerin zemininde bulunan kırmızı,sarı,siyah ve mavi kapılardan hangisini seçeceksiniz?\n").lower()
+        choise3 = input("Beklemeniz meyvesini verdi ve bir gemiyle adaya vardınız.Adada zeminde bulunan kırmızı,sarı,siyah ve mavi kapılardan hangisini seçeceksiniz?\n").lower()
         if choise3 == "sarı":
             choise4 = input("Tebrikler! Hazineyi buldunuz. Çıktığınızda geldiğiniz gemi ve sahilde bir kayık sizi bekliyor. Hangisini kullanacaksınız? Gemi yada kayık yazın.\n").lower()
             if choise4 == "kayık":
